@@ -1,0 +1,16 @@
+{
+    "name": "dev.neko3.cacao-tools.editor",
+    "rootNamespace": "Dev.Neko3.CacaoTools.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

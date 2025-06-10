@@ -1,0 +1,10 @@
+{
+    "name": "dev.neko3.cacao-tools",
+    "displayName": "CacaoTools",
+    "version": "0.1.0",
+    "unity": "2022.3",
+    "description": "cacao tools",
+    "author": {
+        "name": "cacao"
+    }
+}
