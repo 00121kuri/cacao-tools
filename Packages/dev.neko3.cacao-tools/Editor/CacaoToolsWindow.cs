@@ -14,7 +14,6 @@ namespace Dev.Neko3.CacaoTools.Editor
         {
             GetWindow<CacaoToolsWindow>("Cacao Tools");
         }
-
         private void OnGUI()
         {
             GUILayout.Label("Cacao Tools", EditorStyles.boldLabel);
@@ -23,6 +22,13 @@ namespace Dev.Neko3.CacaoTools.Editor
             if (GUILayout.Button("Test Log"))
             {
                 Debug.Log("Cacao Tools is working!");
+            }
+
+            GUILayout.Space(10);
+
+            if (GUILayout.Button("Open Folder Creator"))
+            {
+                Dev.Neko3.CacaoTools.Editor.FolderCreator.FolderCreatorWindow.ShowWindow();
             }
 
             GUILayout.Space(10);
